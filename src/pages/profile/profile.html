@@ -1,0 +1,154 @@
+<div class="itemCabecera">
+  <ion-item  no-lines>
+    <ion-icon name="menu" menuToggle style="font-size: 35px !important; color:#f3f3f3;" ></ion-icon>
+  </ion-item>
+</div>
+<ion-item class="infoProfile" no-lines>
+  <ion-avatar item-start>
+    <img src="assets/img/perfil_kevin.png" class="imgProfile">
+  </ion-avatar>
+  <h1 >{{user._user?.name}} {{user._user?.lastname}}</h1>
+  <h3>EMPRESARIO</h3>
+</ion-item>
+<ion-content padding id="page7"  scroll="true" >
+  <div>
+    <p text-justify > Soy Kevin Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro deserunt modi maxime cumque dignissimos repudiandae quod sunt reprehenderit et.</p>
+  </div>
+  <div >
+    <ion-label text-left>
+      Fotos y Videos
+    </ion-label>
+  </div>
+    <div class="fotosVideos">
+      <ion-slides spaceBetween="4">
+        <ion-slide >
+        </ion-slide>
+        <ion-slide >
+          <ion-icon ios="ios-play" md="md-play"></ion-icon>
+        </ion-slide>
+        <ion-slide >
+        </ion-slide>
+        <ion-slide >
+        </ion-slide>
+        <ion-slide >
+        </ion-slide>
+        <ion-slide >
+        </ion-slide>
+        <ion-slide >
+        </ion-slide>
+        <ion-slide >
+        </ion-slide>
+      </ion-slides>
+    </div>
+  <ion-list scroll="true" >
+    <div class="informacion">
+      <ion-label text-left>
+        Información
+      </ion-label>
+      <ion-grid>
+        <ion-row>
+          <ion-col col-2>
+            <img src="assets/img/phone.png" class="imgInfo">
+          </ion-col>
+          <ion-col col-9 >
+            <ion-item no-lines class="item-detail" >
+              (+51)992-325564
+            </ion-item>
+          </ion-col>
+          <ion-col >
+           <ion-icon ios="ios-create" md="md-create"></ion-icon>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-2>
+            <img src="assets/img/mail.png" class="imgInfo">
+          </ion-col>
+          <ion-col col-9>
+            <ion-item no-lines class="item-detail">
+              Kevinuznigan@microsoft.com
+            </ion-item>
+          </ion-col>
+          <ion-col >
+           <ion-icon ios="ios-create" md="md-create"></ion-icon>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-2>
+            <img src="assets/img/location.png" class="imgInfo">
+          </ion-col>
+          <ion-col col-9>
+            <ion-item no-lines class="item-detail">
+              Calle Puquina 100, San Miguel
+            </ion-item>
+          </ion-col>
+          <ion-col >
+           <ion-icon ios="ios-create" md="md-create"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+    <div class="itemArticulos">
+      <ion-label text-left>
+        Articulos
+      </ion-label>
+    </div>
+    <div id="profile-container1">
+      <div id="profile-container2">
+        <ion-item id="profile-list-item-container2">
+            <div  class="articulos"></div>
+          </ion-item>
+      </div>
+    </div>
+  </ion-list>
+  <!--div id="profile-container1">
+    <div id="profile-container2">
+        <ion-list>
+          <ion-item id="profile-list-item-container2">
+            <div id="profile-markdown2" class="show-list-numbers-and-dots">
+              <<p style="margin-top:0px;color:#000000;">
+                Ingeniero Elecrico
+                <strong>
+                  Lima
+                </strong>
+              </p>>
+              <p style="margin-top:0px;color:#000000;" *ngIf="!canEditDescription">
+                  {{currentUser?.description}}
+              </p>
+            </div>
+            <ion-textarea class="description-input" *ngIf="currentUser&&canEditDescription" placeholder="{{'DESCRIPTION'|translate}}" [(ngModel)]="currentUser.description" type="text"></ion-textarea>
+            <button ion-button item-end *ngIf="!canEditDescription" color="secondary" (click)="editDescription()">
+                <ion-icon name="create"></ion-icon>
+                {{'EDIT'|translate}}
+              </button>
+            <button  *ngIf="canEditDescription" ion-button item-end color="primary" (click)="updateDescription()">
+                {{'UPDATE'|translate}}
+            </button>
+          </ion-item>
+          <ion-item-sliding>
+          <ion-item  color="positive" id="profile-list-item4">
+            <ion-icon name="phone-portrait" item-left></ion-icon>
+            <span *ngIf="!canEditPhone">{{currentUser?.phone}}</span>
+            <ion-input class="phone-input" *ngIf="currentUser&&canEditPhone" placeholder="{{'PHONE'|translate}}" [(ngModel)]="currentUser.phone" type="text"></ion-input>
+            <button ion-button item-end *ngIf="!canEditPhone" color="secondary" (click)="editPhone()">
+                <ion-icon name="create"></ion-icon>
+                {{'EDIT'|translate}}
+              </button>
+            <button  *ngIf="canEditPhone" ion-button item-end color="primary" (click)="updatePhone()">
+                {{'UPDATE'|translate}}
+            </button>
+          </ion-item>
+          <ion-item-options side="right">
+          </ion-item-options> >
+        </ion-item-sliding>
+                <ion-item color="assertive" id="profile-list-item5">
+                  <ion-icon name="pin" item-left></ion-icon>
+                  Miraflores 456
+          </ion-item>
+          <ion-item color="positive" id="profile-list-item6">
+            <ion-icon name="link" item-left></ion-icon>
+            linkingcard.com/jose
+          </ion-item>
+        </ion-list>
+    </div>
+  </div-->
+</ion-content>

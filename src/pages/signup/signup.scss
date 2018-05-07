@@ -1,0 +1,76 @@
+page-signup {
+	.item-list {
+  	background-color:#f9f9f9 !important;
+  	border-radius: 20px;
+  	padding: 20px 0px 0px 0px !important;
+  	height: 70% !important;
+  }
+
+	form{
+  	padding: 0px 10px 0px 10px !important;
+  	height: 80% !important;
+
+	}
+	
+	.content{
+		background-color:#eeeeee;
+	}
+	ion-input{
+		padding-top: -10px !important;
+	}
+	.text-input{
+		padding-bottom: 0px !important;
+		padding-top: 0px !important;
+		text-align: left;
+		height: 40px;
+		border-radius: 50px;
+		background-color: #ffffff !important;
+	}
+
+	.button{
+		width: 93% !important;
+		//border:1px solid red !important;
+		//height: 80% !important;
+		margin: 5px 10px 2px 13px !important;
+		text-transform: capitalize !important;
+	}
+	.imgGoogle{
+		width: 42px;
+		height:20px;
+		margin-left: -30px !important;
+		//border:1px solid red;
+		font-size: 12px !important;
+		padding-right: 18px !important;
+	}
+	.btnLogin{
+		background-color: transparent !important;
+		color: #b6b6b6 !important;
+		text-decoration: underline;
+	}
+	p{
+		font-size: 10px !important;
+
+	}
+	ion-item{
+		//padding: 10px 10px 0px 20px !important;
+		background-color: transparent !important;
+	}
+
+	ion-slides {
+		margin-left:10% !important;
+		width: 80% !important;
+    height: 32% !important;
+	}
+	.slide-image {
+    max-height: 40%;
+    max-width: 60%;
+    margin-top: -12px !important;
+    margin: 36px 0;
+  }
+  .slide-title {
+    margin-top: -45px !important;
+  }
+	ion-label{
+		font-size: 20px;
+	}
+}

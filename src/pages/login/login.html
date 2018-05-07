@@ -1,0 +1,58 @@
+<ion-content class="content" scroll="false">
+  <ion-slides pager>
+    <ion-slide >
+      <img src="assets/img/1.png" alt="" class="slide-image">
+      <h5 class="slide-title">Crea tu tarjeta digital y compartela con los demas</h5>
+    </ion-slide>
+    <ion-slide >
+      <img src="assets/img/3.png" alt="" class="slide-image">
+      <h5 class="slide-title">Amplia tu red de contactos y nunca los pierdas de vistas</h5>
+    </ion-slide>
+    <ion-slide >
+      <img src="assets/img/2.png" alt="" class="slide-image">
+      <h5 class="slide-title">Personaliza tu tarjeta y ten siempre actulizado tus datos</h5>
+    </ion-slide>
+  </ion-slides>
+    <div padding-right padding-left>
+      <ion-segment [(ngModel)]="pet" style="margin-left:5% !important;">
+        <ion-segment-button value="personas" >
+          Personas
+        </ion-segment-button>
+        <ion-segment-button value="empresas">
+          Empresas
+        </ion-segment-button>
+      </ion-segment>
+    </div>
+  <form (submit)="doLogin()">
+    <ion-list class="item-list" [ngSwitch]="pet">
+      <ion-item  no-lines >
+        <ion-input type="email"  name="email" [(ngModel)]="account.email" placeholder="{{'EMAIL'|translate}}"></ion-input>
+      </ion-item>
+      <ion-item  no-lines>
+        <ion-input type="password"  name="password" [(ngModel)]="account.password" placeholder="{{'PASSWORD'|translate}}"></ion-input>
+      </ion-item>
+      <div class="button" >
+        <button ion-button color="primary" round >{{ 'LOGIN_BUTTON' | translate }}</button>
+      </div>
+      <div>
+        <ion-item no-lines text-center class="btnLogin"  href="#" (tap)="forgotPassword()"><p>¿Olvidaste tu contraseña? </p></ion-item>
+      </div>
+      <div  class="button" >
+        <button ion-button color="gris" round>
+          <div class="imgGoogle">
+            <img src="assets/img/social_media.png" alt=""  >
+          </div>
+          Regístrate con Google
+        </button>
+      </div>
+    </ion-list>
+    
+    <div style="display: inline-block; margin-top: -5% !important;">
+      <ion-item style="display: inline-block;" no-lines text-center>
+        <p style="font-size: 15px; color:#b6b6b6;display: inline;">¿Todavia no eres miembro?</p>
+        <p  style="font-size: 13px;color:#FF2B3E;font-weight: bold; text-decoration: underline #FF2B3E; display: inline;">Créate una cuenta</p>
+      </ion-item>
+    </div>
+  </form>
+</ion-content>
+

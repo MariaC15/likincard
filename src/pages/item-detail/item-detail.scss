@@ -1,0 +1,98 @@
+page-item-detail {
+  ion-navbar ion-header{
+    height:30% !important;
+    //z-index: -10 !important;
+  }
+  ion-item{
+    background-color: transparent !important;
+    color: #222222 !important;
+  }
+  .contenidoProfile{
+    height: 100% !important;
+    background-color: #eeeeee !important;
+    //max-height: 550px;
+    overflow-y: scroll;
+
+  }
+  .descripcionProfile{
+    margin-top: 10% !important;
+  }
+  .imgProfile{
+    margin-top:-20% !important;
+    z-index: 2 !important;
+    position: relative;
+  }
+  .imgMicrosoft{
+    width:48%;
+    height:60%;
+  }
+  h2{
+    color: #ffffff;
+  }
+  h3{
+    //position: relative;
+    color: #000000;
+    font-size: 12px;
+    margin-top: -12% !important;
+    margin-left: 4% !important;
+  }
+  .btnSeguir{
+    margin-top: -14%;
+    margin-left: 70%;
+    height: 3.1rem !important;
+    width: 25%;
+    text-transform: capitalize;
+    background-color:#a0a0a0 !important;
+  }
+  p{
+    //353535
+    color: #5c5c5c !important;
+    font-size: 12px !important; 
+
+  }
+  ion-label{
+    color: #a0a0a0;
+    font-size: 12px !important; 
+    text-transform: uppercase;
+  }
+  .fotosVideos{
+    height: 16% !important;
+  }
+  ion-slides{
+    color: #a0a0a0;
+    padding: 0px 0px 0px 0px;
+    width: 120%;
+    //font-weight: bold;
+  }
+  ion-slide {
+    width: 19% !important;
+    height: auto !important;
+    border-radius: 10%;
+    background-color: #e5e5e5 !important ;
+  }
+  .imgInfo{
+    width: 40px !important;
+    height: 40px !important; 
+
+  }
+  .articulos{
+    width:100%;
+    height:220px;
+    margin:0px 0px;
+    line-height:250px;
+    background-color:#e5e5e5;
+    text-align:center; 
+    border-radius: 8%;
+  }
+  .item-profile {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+  }
+
+  .item-detail {
+    color: #222222 !important;
+    font-size: 14px !important;
+  }
+}

@@ -1,0 +1,71 @@
+page-home {
+	background-color: #eeeeee !important;
+	ion-content{
+		background-color: #eeeeee !important;
+		margin-top: 20% !important;
+		max-height: 550px;
+    overflow-y: scroll;
+	}
+	.contentMenu{
+		padding: 0px;
+    position: absolute !important;
+		background-color: #eeeeee !important;
+    z-index: 30 !important;
+    border: 1px solid red;
+    width: 100%;
+    height: 12%;
+  }
+  .iconMenu{
+  	margin-top: 10% !important;
+  }
+  ion-searchbar{
+  	margin-top: -4%;
+  	width:106%;
+  }
+  .itemList{
+  	z-index: 3 !important;
+  }
+  ion-label{
+  	font-size: 19px !important;
+  	font-weight: bold !important;
+  }
+  .tituloTarjetas{
+  	text-transform: uppercase;
+  	color: #a0a0a0;
+  	font-size: 12px !important;
+  	margin-left: 30px !important;
+  }
+  ion-card{
+  	padding: 0px 0px 0px 0px !important;
+  	//border-radius: 20% !important;
+  }
+  .imgA{
+  	margin-top: -62% !important;
+  	width: 100px !important;
+  	height: 100px !important;
+  }
+  .imgB{
+  	margin-top: -15% !important;
+  	width: 100px !important;
+  	height: 100px !important;
+  }
+  .infoTarjeta{
+  	margin-top: -2% !important;
+  }
+	.addTarjetas{
+  	margin-left: 9% !important;
+		//padding: 0px;
+	}
+	.imgMicrosoft{
+    width: 90px !important;
+    height: 40px !important;
+   	//margin-top: 17% !important;
+    //margin-left: 20% !important;
+  }
+  h2{
+  	color: #222222;
+  	padding-bottom:  3px !important;
+  	font-weight: bold !important;
+  	text-transform: capitalize;
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "NAME": "Nombre",
+  "LASTNAME": "Apellido",
+  "NICKNAME": "Nickname",
+  "PASSWORD": "Contraseña",
+  "EMAIL": "Email",
+  "LOGIN": "Iniciar sesión",
+  "SIGNUP": "Registrarse",
+
+  "TAB1_TITLE": "Items",
+  "TAB2_TITLE": "Buscar",
+  "TAB3_TITLE": "Ajustes",
+
+  "MAP_TITLE": "Mapa",
+
+  "TUTORIAL_SLIDE1_TITLE": "Bienvenido/a al Ionic Super Starter",
+  "TUTORIAL_SLIDE1_DESCRIPTION":
+    "El <b>Ionic Super Starter</b> es un starter de Ionic completo con muchas páginas preconstruidas y mejores prácticas.",
+
+  "TUTORIAL_SLIDE2_TITLE": "Cómo usar el Super Starter",
+  "TUTORIAL_SLIDE2_DESCRIPTION":
+    "Monta los varios tipos de página que quieras y quita los que no. Hemos incluido muchas estructuras de página comunes en apps móviles, como páginas de inicio de sesión y registro, pestañas, y esta página de tutorial.",
+
+  "TUTORIAL_SLIDE3_TITLE": "Empezando",
+  "TUTORIAL_SLIDE3_DESCRIPTION":
+    "¿Necesitas ayuda? Échale un vistazo al README del Super Starter para ver el tutorial completo.",
+  
+  "WELCOME_INTRO": "Nunca fue tan facil compartir tu tarjeta de negocios",
+
+  "SETTINGS_TITLE": "Ajustes",
+  "SETTINGS_OPTION1": "Opción 1",
+  "SETTINGS_OPTION2": "Opción 2",
+  "SETTINGS_OPTION3": "Opción 3",
+  "SETTINGS_OPTION4": "Opción 4",
+
+  "SETTINGS_PAGE_PROFILE": "Editar Perfil",
+
+  "WELCOME_TITLE": "Bienvenido/a",
+
+  "LOGIN_TITLE": "Iniciar sesión",
+  "LOGIN_ERROR":
+    "No se ha podido iniciar sesión. Por favor revisa la información de la cuenta e inténtalo de nuevo.",
+  "LOGIN_BUTTON": "Iniciar sesión",
+  "SIGNUP_TITLE": "Registro",
+  "SIGNUP_ERROR":
+    "No se ha podido crear la cuenta. Por favor revisa la información de la cuenta e inténtalo de nuevo.",
+  "SIGNUP_BUTTON": "Registrarse",
+
+  "LIST_MASTER_TITLE": "Items",
+
+  "ITEM_CREATE_TITLE": "Nuevo Item",
+  "ITEM_CREATE_CHOOSE_IMAGE": "Añadir Imagen",
+
+  "CARDS_TITLE": "Social",
+
+  "SEARCH_TITLE": "Buscar",
+
+  "auth/email-already-in-use":
+    "Al parecer ya te has registrado con este email, por favor inicia sesión con tu email y contraseña",
+  "auth/invalid-email": "Correo electrónico no valido",
+  "auth/invalid-phone-number": "Numero de telefono no válido",
+  "auth/operation-not-allowed": "Operacion no permitida",
+  "auth/weak-password": "La clave debe de tener al menos 6 caracteres",
+  "auth/user-disabled": "usuario deshabilitado",
+  "auth/user-not-found": "usuario no encontrado",
+  "auth/wrong-password": "clave incorrecta",
+  "auth/invalid-verification-code": "El código de verificación no es válido.",
+  "auth/code-expired":
+    "El código de SMS ha expirado. Vuelve a enviar el código de verificación para probar",
+  "auth/credential-already-in-use":
+    "Este telefono o credencial ya está asociada a una cuenta de usuario diferente.",
+  "auth/too-many-requests":
+    "Hemos bloqueado todas las solicitudes de este dispositivo debido a una actividad inusual. Inténtalo más tarde.",
+  "auth/network-request-failed":
+    "Al parecer tienes porblemas con tu conexion a internet"
+}

@@ -1,0 +1,73 @@
+page-card-finishing {
+  ion-content{
+    background-color: #eeeeee !important;
+  }
+
+  .label-titulo{
+    font-size: 1.5em !important;
+    text-align: center !important;
+    font-weight: bold !important;
+  }
+
+  .img-camera{
+    width: 70% !important;
+    background-color: #e0e0e0 !important;
+    border-radius: 50% !important;
+    margin: 0 auto !important;
+  }
+
+  .icon-edit{
+    color:#fff !important;
+  }
+
+  .label-img{
+    color:#b6b6b6 !important;
+    font-weight: bold !important;
+    font-size: 1.2em !important;
+  }
+
+  .label-name-user{
+    font-size: 1.0em !important;
+    font-weight: bold !important;
+  }
+
+  .label-profesion-user{
+    font-size: 1em !important;
+  }
+  
+  .label-email-user{
+    font-size: 0.9em !important;
+    font-weight: bold !important;
+  }
+  
+  .label-phone-user{
+    font-size: 1.0em !important;
+    color:#b6b6b6 !important;
+  }
+
+  .cardb{
+    background-color: #f9f9f9 !important;
+  }
+
+  .select-lista{
+    background-color: #eeeeee !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .text-input{
+    background-color: #fff;
+  }
+
+  .boton-pagina{
+    background-color: #FF2B3E;
+  }
+
+  .texto-fondo-p{
+    font-size: 0.9em !important;
+  }
+
+  ion-card{
+    margin-top: 5% !important;
+  }
+}

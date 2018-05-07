@@ -1,0 +1,83 @@
+page-profile {
+  
+	.itemCabecera{
+    height:20% !important;
+   	width:100% !important;
+    position: absolute !important;
+    z-index: 2 !important;
+    background-color: #FF2B3E;
+  }
+  .phone-input{
+   	width: 80%;
+  }
+  .infoProfile{
+    margin-top: 17% !important;
+    z-index: 4 !important;
+   	position: relative;
+    margin-left: -8%;
+  }
+  .imgProfile{
+    margin-top: 5% !important;
+    margin-left: 30% !important;
+    height:75% !important;
+	  width:75% !important;
+
+  }
+  h1{
+  	text-transform: capitalize;
+  	font-weight: bold;
+    color: #ffffff;
+  }
+  h3{
+    font-weight: bold;
+    color: #000000;
+    margin-top: 6% !important;
+  }
+  ion-label{
+    color: #a0a0a0;
+    font-size: 12px !important; 
+    text-transform: uppercase;
+  }
+  p{
+    //353535
+    color: #5c5c5c !important;
+    font-size: 12px !important; 
+    margin-top: 20% !important;
+
+  }
+  #page7{
+    height: 100%;
+    margin-top: 30% !important;
+		background-color: #eeeeee !important;
+    max-height: 550px;
+    overflow-y: scroll;
+  }
+  .fotosVideos{
+    height: 13% !important;
+  }
+  ion-slides{
+    color: #a0a0a0;
+    padding: 0px 0px 0px 0px;
+    width: 120%;
+    //font-weight: bold;
+  }
+  ion-slide {
+    width: 19% !important;
+    height: auto !important;
+    border-radius: 10%;
+    background-color: #e5e5e5 !important ;
+  }
+  .item-detail {
+    color: #222222 !important;
+    font-size: 22px !important;
+  }
+  .articulos{
+    width:100%;
+    height:220px;
+    margin:0px 0px;
+    line-height:250px;
+    background-color:#e5e5e5;
+    text-align:center; 
+    border-radius: 8%;
+  }
+}

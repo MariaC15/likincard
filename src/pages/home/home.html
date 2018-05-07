@@ -1,0 +1,67 @@
+<ion-item  class="contentMenu" no-lines>
+	<ion-grid>
+		<ion-row>
+			<ion-col col-1>
+  			<ion-icon name="menu" menuToggle class="iconMenu" style="font-size: 35px !important; color:#8f8f8f;" ></ion-icon>
+			</ion-col>
+			<ion-col col-11>
+				<ion-searchbar placeholder="{{ 'SEARCH_PLACEHOLDER' | translate }}"></ion-searchbar>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+</ion-item>
+
+<ion-content scroll="true">
+	<div >
+		<ion-label class="tituloTarjetas">
+		Tu Tarjeta
+		</ion-label>
+		<ion-card>
+			<p  style="margin-left: 85%; padding-top: 5% ; font-size: 11px !important; color: #000000;">Editar</p>
+			<ion-item class="infoTarjeta">
+			    <ion-avatar item-start>
+			      <img src="assets/img/perfil_ronald.png" class="imgA">
+			    </ion-avatar>
+			    <h2>{{currentUser.name}}  {{currentUser.displayName}}</h2>
+			    <p>EMPRESARIO</p>
+			    <p style="color: #000000; margin-top: 15%; padding-bottom:  3px !important;">ronaldrengifo@gmail.com</p>
+			    <p style="color: #000000; padding-bottom:  10px !important;">992-325564</p>
+			  </ion-item>
+		</ion-card>
+		<ion-card>
+			<ion-item href="#" class="addTarjetas">
+		    <label style="color:#5c5c5c; font-size: 16px !important;">Añadir más tarjetas</label>
+		    <ion-icon ios="ios-add-circle" md="md-add-circle" item-start style="color:#f3f3f3; font-size: 60px !important;"></ion-icon>
+		 	</ion-item>
+		</ion-card>
+		
+	</div>
+	<div >
+		<ion-label class="tituloTarjetas">
+		Tus Tarjetas
+		</ion-label>
+		<ion-card color="primary">
+			<p  style="margin-left: 85%; padding-top: 5% ; font-size: 11px !important; font-weight: bold; color: #fff;">Editar</p>
+			<ion-item class="infoTarjeta">
+			    <ion-avatar item-start>
+			      <img src="assets/img/perfil_kevin.png" class="imgB">
+			    </ion-avatar>
+			    <h2>{{currentUser.name}}  {{currentUser.displayName}}</h2>
+			    <p style="color: #f3f3f3;">INGENIERO</p>
+			  </ion-item>
+			  <ion-grid>
+			  	<ion-row>
+			  		<ion-col col-4>
+			  			<img src="assets/img/microsoft.png" class="imgMicrosoft" >
+			  		</ion-col>
+			  		<ion-col col-8>
+							<p style="color: #fff; margin-top: -1%;margin-left: 5%; padding-bottom:  3px !important;">ronaldrengifo@gmail.com</p>
+							<p style="color: #fff;margin-left: 5%; ">992-325564</p>
+			  		</ion-col>
+			  		</ion-row>	
+			  </ion-grid>
+		</ion-card>
+      
+		
+	</div>
+</ion-content>

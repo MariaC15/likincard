@@ -1,0 +1,102 @@
+page-customize-card {
+  ion-content{
+    background-color: #eeeeee !important;
+  }
+
+  .label-titulo{
+    font-size: 1.5em !important;
+    text-align: center !important;
+    font-weight: bold !important;
+  }
+
+  .img-perfil{
+    width: 70% !important;
+    background-color: #e0e0e0 !important;
+    border-radius: 50% !important;
+    margin: 0 auto !important;
+  }
+
+  .label-img{
+    color:#000 !important;
+    font-weight: bold !important;
+    font-size: 1.2em !important;
+  }
+
+  .label-name-user{
+    font-size: 1.0em !important;
+    font-weight: bold !important;
+  }
+
+  .label-profesion-user{
+    font-size: 1em !important;
+  }
+  
+  .label-email-user{
+    font-size: 0.9em !important;
+    font-weight: bold !important;
+  }
+  
+  .label-phone-user{
+    font-size: 1.0em !important;
+    color:#b6b6b6 !important;
+  }
+
+  .cardb{
+    background-color: #f9f9f9 !important;
+  }
+  
+  ion-card-header{
+    color:#7f7f7f !important;
+  }
+  
+  .label-titulo-fondo-color{
+    color:#7f7f7f !important;
+  }
+
+  .circulo{
+    width: 25px;
+    height: 25px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50% !important;
+    //padding-left: 1% !important;
+    border:1px solid #eeeeee !important;
+  }
+
+  //clases para cambiar colores del fondo
+  .fondo-black{
+    background-color: #000 !important;
+  }
+
+  .fondo-white{
+    background-color: #fff !important;
+  }
+
+  .fondo-red{
+    background-color: #FF0000 !important;
+  }
+
+  .fondo-purple{
+    background-color: #551A8B !important;
+  }
+
+  .fondo-blue{
+    background-color: #0000FF !important;
+  }
+
+  .fondo-cian{
+    background-color: #00FFFF !important;
+  }
+
+  .fondo-green{
+    background-color: #008000 !important;
+  }
+
+  .fondo-yellow{
+    background-color: #FFFF00 !important;
+  }
+
+  .fondo-orange{
+    background-color: #FFA500 !important;
+  }
+}

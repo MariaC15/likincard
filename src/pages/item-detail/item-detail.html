@@ -1,0 +1,108 @@
+<ion-header no-border>
+	<ion-navbar color="primary" >
+	 	<ion-item no-lines>
+	 		<img src="assets/img/microsoft.png" class="imgMicrosoft" item-end>
+	  </ion-item>
+	  <h2 text-center color="light">{{ item.name }}</h2>
+	</ion-navbar>
+	<div class="imgProfile">
+		<ion-avatar item-start>
+			<img src="assets/img/perfil_kevin.png">
+		</ion-avatar>
+	  <h3 text-center>Ingeniero de Sistemas</h3>
+	  <button ion-button round class="btnSeguir">Seguir</button>
+	</div>
+	  
+
+</ion-header>
+			
+
+<ion-content padding scroll="true" class="contenidoProfile">
+	<div class="descripcionProfile">
+		<p text-justify > Soy Kevin Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro deserunt modi maxime cumque dignissimos repudiandae quod sunt reprehenderit et.</p>
+	</div>
+	<div >
+		<ion-label text-left>
+			Fotos y Videos
+		</ion-label>
+	</div>
+		<div class="fotosVideos">
+			<ion-slides spaceBetween="4">
+				<ion-slide >
+				</ion-slide>
+				<ion-slide >
+					<ion-icon ios="ios-play" md="md-play"></ion-icon>
+				</ion-slide>
+				<ion-slide >
+				</ion-slide>
+				<ion-slide >
+				</ion-slide>
+				<ion-slide >
+				</ion-slide>
+				<ion-slide >
+				</ion-slide>
+				<ion-slide >
+				</ion-slide>
+				<ion-slide >
+				</ion-slide>
+			</ion-slides>
+		</div>
+		<ion-list scroll="true">
+			<div class="informacion">
+				<ion-label text-left>
+					Información
+				</ion-label>
+				<ion-grid>
+					<ion-row>
+						<ion-col col-2>
+					  	<img src="assets/img/phone.png" class="imgInfo">
+					  </ion-col>
+						<ion-col col-10 class="item-detail">
+					  	<ion-item no-lines class="item-detail">
+					    	(+51)992-325564
+					  	</ion-item>
+						</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col col-2>
+			  			<img src="assets/img/mail.png" class="imgInfo">
+			     	</ion-col>
+						<ion-col col-10>
+					  	<ion-item no-lines class="item-detail">
+					    	Kevinuznigan@microsoft.com
+					  	</ion-item>
+						</ion-col>
+					</ion-row>
+			  	<ion-row>
+						<ion-col col-2>
+							<img src="assets/img/location.png" class="imgInfo">
+						</ion-col>
+						<ion-col col-10>
+					  	<ion-item no-lines class="item-detail">
+					    	Calle Puquina 100, San Miguel
+					  	</ion-item>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+			</div>
+		<div >
+	    <ion-label text-left>
+	      Articulos
+		  </ion-label>
+	  </div>
+	  <div id="profile-container1">
+	    <div id="profile-container2">
+	      <ion-item id="profile-list-item-container2">
+	        <div  class="articulos"></div>
+	      </ion-item>
+	    </div>
+	  </div>
+  </ion-list>
+  <!--div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
+  </div-->
+
+  <!--div class="item-detail" padding>
+    <h2>{{item.name}}</h2>
+    <p>{{item.about}}</p>
+  </div-->
+</ion-content>

@@ -1,0 +1,94 @@
+<ion-header no-border>
+	<ion-navbar color="primary" >
+	 	<ion-item no-lines>
+	 		<img src="{{currentUser?.organization.picture}}" alt="{{currentUser?.organization.name}}" class="imgOrganization" item-end>
+	  </ion-item>
+	  <h2 text-center color="light">{{ currentUser?.name}} {{currentUser?.lastname }}</h2>
+	</ion-navbar>
+	<div class="imgProfile">
+		<ion-avatar item-start>
+			<img [src]="getProfilePic()">
+		</ion-avatar>
+	  <h4 text-center>{{ currentUser?.occupation}}</h4>
+	</div>
+</ion-header>
+			
+
+<ion-content padding scroll="true">
+	<div>
+		<p text-justify >{{ currentUser?.description}}</p>
+	</div>
+	<div >
+		<ion-label text-left>
+			Fotos y Videos
+		</ion-label>
+	</div>
+		<div class="fotosVideos">
+			<ion-slides spaceBetween="4">
+				<ion-slide >
+				</ion-slide>
+				<ion-slide >
+					<ion-icon ios="ios-play" md="md-play"></ion-icon>
+				</ion-slide>
+				<ion-slide >
+				</ion-slide>
+				<ion-slide >
+				</ion-slide>
+				<ion-slide >
+				</ion-slide>
+			</ion-slides>
+		</div>
+	<div class="informacion">
+		<ion-label text-left>
+			Información
+		</ion-label>
+		<ion-list>
+			<ion-grid>
+				<ion-row>
+					<ion-col col-2>
+				  	<img src="assets/img/phone.png" class="imgInfo">
+				  </ion-col>
+					<ion-col col-10 class="item-detail">
+				  	<ion-item no-lines class="item-detail">
+				    	<a class="" href="tel:{{currentUser?.phone}}:">{{currentUser?.phone}}</a>
+				  	</ion-item>
+					</ion-col>
+				</ion-row>
+				<ion-row>
+					<ion-col col-2>
+		  			<img src="assets/img/mail.png" class="imgInfo">
+		     	</ion-col>
+					<ion-col col-10>
+				  	<ion-item no-lines class="item-detail">
+              <a class="" href="mailto:{{currentUser?.email}}:">{{currentUser?.email}}</a>
+				  	</ion-item>
+					</ion-col>
+				</ion-row>
+		  	<ion-row>
+					<ion-col col-2>
+						<img src="assets/img/location.png" class="imgInfo">
+					</ion-col>
+					<ion-col col-10>
+				  	<ion-item no-lines class="item-detail">
+              <!-- <a class="" href="mailto:{{currentUser?.address}}:">{{currentUser?.address}}</a> -->
+              {{currentUser?.address}}
+				  	</ion-item>
+					</ion-col>
+				</ion-row>
+			</ion-grid>
+		  
+		</ion-list>
+	</div>
+	<div class="articulos">
+		<ion-label text-left>
+			Articulos
+		</ion-label>
+	</div>
+  <!--div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
+  </div-->
+
+  <!--div class="item-detail" padding>
+    <h2>{{'item.name'}}</h2>
+    <p>{{'item.about'}}</p>
+  </div-->
+</ion-content>

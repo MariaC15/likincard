@@ -1,0 +1,82 @@
+<ion-content class="content">
+  <ion-slides pager>
+    <ion-slide >
+      <img src="assets/img/1.png" alt="" class="slide-image">
+      <h5 class="slide-title">Crea tu tarjeta digital y compartela con los demas</h5>
+    </ion-slide>
+    <ion-slide >
+      <img src="assets/img/3.png" alt="" class="slide-image">
+      <h5 class="slide-title">Amplia tu red de contactos y nunca los pierdas de vistas</h5>
+    </ion-slide>
+    <ion-slide >
+      <img src="assets/img/2.png" alt="" class="slide-image">
+      <h5 class="slide-title">Personaliza tu tarjeta y ten siempre actulizado tus datos</h5>
+    </ion-slide>
+  </ion-slides>
+    <div padding-right padding-left >
+      <ion-segment [(ngModel)]="optinSegment" style="margin-left:5% !important;">
+        <ion-segment-button value="personas" >
+          Personas
+        </ion-segment-button>
+        <ion-segment-button value="empresas">
+          Empresas
+        </ion-segment-button>
+      </ion-segment>
+    </div>
+  <form *ngIf="form" [formGroup]="form" (submit)="doSignup()" [ngSwitch]="optinSegment">
+    <ion-list class="item-list" *ngSwitchCase="'personas'">
+      <ion-item  no-lines>
+        <ion-input type="text" formControlName="name" name="name" placeholder="{{'NAME'|translate}}" ></ion-input>
+      </ion-item>
+      <ion-item  no-lines>
+        <ion-input type="text" formControlName="lastname" name="lastname" placeholder="{{'LASTNAME'|translate}}"></ion-input>
+      </ion-item>
+      <ion-item  no-lines >
+        <ion-input type="email" formControlName="email" name="email" placeholder="{{'EMAIL'|translate}}"></ion-input>
+      </ion-item>
+      <ion-item  no-lines>
+        <ion-input type="password" formControlName="password" name="password" placeholder="{{'PASSWORD'|translate}}"></ion-input>
+      </ion-item>
+      <div class="button" >
+        <button ion-button color="primary" round >{{ 'SIGNUP_BUTTON' | translate }}</button>
+      </div>
+      <div  class="button" >
+        <button ion-button color="gris" round>
+          <div class="imgGoogle">
+            <img src="assets/img/social_media.png" alt=""  >
+          </div>
+          Regístrate con Google
+        </button>
+      </div>
+    </ion-list>
+
+    <ion-list class="item-list" *ngSwitchCase="'empresas'">
+      <ion-item  no-lines>
+        <ion-input type="text" formControlName="name" name="name" placeholder="{{'NAME'|translate}}" ></ion-input>
+      </ion-item>
+      <ion-item  no-lines >
+        <ion-input type="email" formControlName="email" name="email" placeholder="{{'EMAIL'|translate}}"></ion-input>
+      </ion-item>
+      <ion-item  no-lines>
+        <ion-input type="password" formControlName="password" name="password" placeholder="{{'PASSWORD'|translate}}"></ion-input>
+      </ion-item>
+      <div class="button" >
+        <button ion-button color="primary" round >{{ 'SIGNUP_BUTTON' | translate }}</button>
+      </div>
+      <div  class="button" >
+        <button ion-button color="gris" round>
+          <div class="imgGoogle">
+            <img src="assets/img/social_media.png" alt=""  >
+          </div>
+          Regístrate con Google
+        </button>
+      </div>
+    </ion-list>
+    <div style="display: inline-block; margin-top: -5% !important;">
+      <ion-item style="display: inline-block;" no-lines text-center>
+        <p style="font-size: 15px; color:#b6b6b6;display: inline;">¿Ya tienes una cuenta?</p>
+        <p  style="font-size: 13px;color:#FF2B3E;font-weight: bold; text-decoration: underline #FF2B3E; display: inline;">{{'LOGIN'|translate}}</p>
+      </ion-item>
+    </div>
+  </form>
+</ion-content>
