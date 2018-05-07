@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "760573223403",
+    "firebase_url": "https://linkingcard.firebaseio.com",
+    "project_id": "linkingcard",
+    "storage_bucket": "linkingcard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760573223403:android:e3db7f45f77cada1",
+        "android_client_info": {
+          "package_name": "com.linkingcard.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760573223403-atc72li07pd0o3l04bi8f683vcg336cj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJxYJIO5m74b4PgJX9WH5qErROBkYblWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
